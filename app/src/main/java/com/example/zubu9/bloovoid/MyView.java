@@ -76,10 +76,10 @@ public class MyView extends View implements View.OnTouchListener, Runnable {
 
         canvas.drawText("ABULS AVOIDED: " + boolsAvoided, 50, 50, p);
 
-//        bx = 0.0f;
-//        bx2 = (float) (canvas.getWidth() * 0.25);
-//        bx3 = (float) (canvas.getWidth() * 0.55);
-//        bx4 = (float) (canvas.getWidth() * 0.85);
+        bx = 0.0f;
+        bx2 = (float) (canvas.getWidth() * 0.25);
+        bx3 = (float) (canvas.getWidth() * 0.55);
+        bx4 = (float) (canvas.getWidth() * 0.85);
 
     }
 
